@@ -5,6 +5,9 @@
  */
 package javaapplication6;
 
+import java.util.Random;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Adrianvo
@@ -15,7 +18,10 @@ public class JavaApplication6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       String nombre = JOptionPane.showInputDialog("nombre");
+        Random r = new Random();
+        int azar = r.nextInt();
+        System.out.println(azar+") hi GIT, I'm "+nombre);
         System.out.println("You vae a nice day!");
     }
     
