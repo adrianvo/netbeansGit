@@ -22,7 +22,7 @@ public class JavaApplication6 {
         Random r = new Random();
         int azar = r.nextInt();
         System.out.println(azar+") hi GIT, I'm "+nombre);
-        System.out.println("You vae a nice day!");
+        System.out.println("You have a nice day!");
     }
     
 }
